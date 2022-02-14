@@ -1,6 +1,17 @@
 {
+  "name": "rkst_cd107",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cjsdiniz/rkst_cd107.git",
+  "author": "cjsdiniz <67067863+cjsdiniz@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
+  },
   "dependencies": {
     "express": "^4.17.2",
+    "nodemon": "^2.0.15",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.41"
